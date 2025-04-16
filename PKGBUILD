@@ -1,4 +1,4 @@
-# Maintainer: ELTechnical <you@example.com>
+# Maintainer: ELTechnical
 pkgname=eltechnical-pacman-gui
 pkgver=1.0.0
 pkgrel=1
@@ -7,10 +7,10 @@ arch=('any')
 url="https://github.com/eltechnical/eltechnical-pacman-gui"
 license=('none')
 depends=('python' 'python-pyqt5')
-source=("eltechnical-pacman-gui.py")
+source=("ELTechnical Pacman GUI.py")
 sha256sums=('SKIP')
 
 package() {
-  install -Dm755 "$srcdir/eltechnical-pacman-gui.py" "$pkgdir/usr/bin/eltechnical-pacman-gui"
+  install -Dm755 "$srcdir/ELTechnical Pacman GUI.py" "$pkgdir/usr/bin/eltechnical-pacman-gui"
 }
 
